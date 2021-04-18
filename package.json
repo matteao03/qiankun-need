@@ -9,7 +9,7 @@
     "install-all": "npm-run-all install:*",
     "start:main": "cd main && npm run dev",
     "start:subapp": "cd subapp && npm run dev",
-    "start-all": "npm-run-all --parallel start:*",
+    "start-all": "npm-run-all --parallel start:*"
   },
   "repository": {
     "type": "git",
