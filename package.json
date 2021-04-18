@@ -1,0 +1,24 @@
+{
+  "name": "qiankun-need",
+  "version": "1.0.0",
+  "description": "- main 主应用\r - data 微应用二",
+  "main": "index.js",
+  "scripts": {
+    "install:main": "cd main && npm install",
+    "install:subapp": "cd subapp && npm install",
+    "install-all": "npm-run-all install:*",
+    "start:main": "cd main && npm run serve",
+    "start:subapp": "cd subapp && npm run serve",
+    "start-all": "npm-run-all --parallel start:*",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matteao03/qiankun-need.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matteao03/qiankun-need/issues"
+  },
+  "homepage": "https://github.com/matteao03/qiankun-need#readme"
+}
