@@ -7,8 +7,8 @@
     "install:main": "cd main && npm install",
     "install:subapp": "cd subapp && npm install",
     "install-all": "npm-run-all install:*",
-    "start:main": "cd main && npm run serve",
-    "start:subapp": "cd subapp && npm run serve",
+    "start:main": "cd main && npm run dev",
+    "start:subapp": "cd subapp && npm run dev",
     "start-all": "npm-run-all --parallel start:*",
   },
   "repository": {
